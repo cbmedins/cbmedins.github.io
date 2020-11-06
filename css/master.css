@@ -130,7 +130,8 @@
     box-sizing: border-box;
 }
 body {
-  background-color: #011126;
+/*background-color: #011126;*/
+  background-color: #FAFAFA;	
   margin-bottom: 50px;
 }
 html, button, input, select, textarea {
