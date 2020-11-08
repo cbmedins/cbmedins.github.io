@@ -177,7 +177,6 @@ button{
   display: inline-block;
   margin: 8px 2px;
   border: none;
-  border-radius: 0px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
   
