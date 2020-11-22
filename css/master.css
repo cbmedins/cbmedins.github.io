@@ -141,7 +141,7 @@ li, a, button{
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
-  font-weight: bold;
+  /* font-weight: bold; */
   
 }
 
@@ -185,64 +185,6 @@ button:hover{
   background-color:#00abf9;
   color: #fafafa;
 }
-.cta{
-  
-}
-/*
-nav{
-  background: #222;
-  padding: 5px 20px;
-}
-ul{
-  list-style-type:none ;
-}
-a{
-  color: #FAFAFA;
-  text-decoration: none;
-}
-a:hover{
-  text-decoration: underline;
-}
-.logo a:hover{
-  text-decoration: none;
-}
-.nav_links li{
-  font-size: 16px;
-  padding: 15px 5px;
-  white-space: nowrap;
-}
-.logo a,
-.toggle a{
-  font-size: 20px;
-}
-.button.secondary{
-  border-bottom: 1px #011126 solid;
-}
-/*Desktop menu*/
-/*@media all and (min-width:900px){
-  .item{
-    display: block;
-    width: auto;
-  }
-  .toggle{
-    display: none;
-  }
-  .logo{
-    order: 0;
-  }
-  .item{
-    order: 1;
-  }
-  .button{
-    order: 2;
-  }
-  .menu li{
-    padding: 15px 10px;
-  }
-  .menu li.button{
-    padding-right: 0;
-  }
-}*/
 
 html, input, select, textarea {
     font-family: 'Montserrat', Helvetica, sans-serif;
