@@ -300,3 +300,7 @@ header {
   background: url("/images/hero/iMac/imac_large.jpg");
 }
 
+.container-video {
+	margin: 50px auto;
+	max-width: 500px;
+}
