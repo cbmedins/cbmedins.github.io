@@ -80,8 +80,12 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script>
   <script src="./script.js"></script>
   <script>
-    // burger nav click
-    burgerNav.addEventListener('click',function(){
+      let 
+          current = 0,
+          burgerNav = document.querySelector('.burger-nav');
+
+       // burger nav click
+      burgerNav.addEventListener('click',function(){
       let navburgerdiv = document.querySelector('.header-burger-nav-menu');
       if (navburgerdiv.style.display == 'block')
       {
