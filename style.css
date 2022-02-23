@@ -223,8 +223,7 @@ body {
   .show-nav {
       display: block;
   }
-  
-  .feature-row {
+    .feature-row {
       flex-wrap: wrap;
   }
   .feature-row-items {
@@ -237,6 +236,25 @@ body {
     margin-right: 5%;
     font-size: 20vw;
   }
+  
+  .hero-header {
+    height: 12vw;
+  }
+
+  img {
+    height: 10vw;;
+  }
+  
+  .header-burger-items .header-burger-flex > a{
+    position: flex;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .25);
+    padding-top: 15vw;
+    font-size:5vw;
+    line-height: 5vw;
+  }
+  
+  
+
 }
 @media (max-width: 540px) {
   .footer .container  {
